@@ -1,0 +1,11 @@
+body {
+  overflow: hidden;
+}
+.content {
+  height: 100vh;
+  width: 100vw;
+}
+.col {
+  border: 2px solid black;
+  background-color: Yellow;
+}
