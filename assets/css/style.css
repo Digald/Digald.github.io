@@ -1,12 +1,12 @@
 /* html, body, and general styles */
 body {
   overflow: auto;
+  background-color: black;
 }
 /* style of landing image and graphics */
 .parallax {
   /* parallax background settings */
   background-image: url("http://longwallpapers.com/Desktop-Wallpaper/computer-wallpapers-wide-For-Desktop-Wallpaper.jpg");
-  /* min-height: 100vh; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,24 +29,30 @@ body {
 }
 /* displaying portfolio positioning */
 .content {
-  background-color: #222222;
+  background-image: url("../images/mern.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   color: white;
-}
-.row {
-  height: 100%;
 }
 .col-xl-3 {
   padding: 0;
 }
 .row img {
   max-width: 100%;
-
 }
 /* portfolio effects on hover */
 /* contact me section */
 .contact-me {
-  background-color: pink;
-  position: relative;
+  background-image: url("http://www.4usky.com/data/out/7/164034464-austin-wallpapers.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* position: relative; */
 }
 .social-media {
   top: 50%;
@@ -59,6 +65,9 @@ body {
 .social-media li {
   display: inline;
   padding: 40px;
+}
+i {
+  color: white;
 }
 
 /* @media only screen and (max-width: 300px) {
