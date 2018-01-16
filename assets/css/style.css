@@ -1,11 +1,13 @@
+
 /* html, body, and general styles */
 body {
   overflow: auto;
 }
+
 /* style of landing image and graphics */
 .parallax {
   /* parallax background settings */
-  background-image: url("https://hdwallsource.com/img/2014/4/free-background-wallpaper-22918-23554-hd-wallpapers.jpg");
+  background-image: url("http://longwallpapers.com/Desktop-Wallpaper/computer-wallpapers-wide-For-Desktop-Wallpaper.jpg");
   min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -17,6 +19,8 @@ body {
   width: 100%;
 }
 .welcome {
+  padding: 20px;
+  background-color: #222222;
   position: absolute;
   text-align: center;
   left: 0;
@@ -30,28 +34,33 @@ body {
 .content {
   height: 100vh;
   width: 100vw;
+  background-color: #222222;
+  color: white;
 }
 .row {
-  height: 33vh;
-  border-bottom: 1px solid black;
+  height: 100%;
 }
-.abouts .col {
-  padding-top: 50px;
-}
-.col {
-  /* border: 1px solid black; */
-  background-color: black;
-  color: white;
-  position: relative;
+.col-xl-3 {
   padding: 0;
 }
-.col img {
-  height: 100%;
-  width: 33%;
+.row img {
+  max-width: 100%;
+
 }
-
 /* portfolio effects on hover */
-
+/* contact me section */
+.contact-me {
+  height: 100vh;
+  width: 100vw;
+  background-color: pink;
+  position: relative;
+}
+.social-media {
+  top: 50%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+}
 /* @media only screen and (max-width: 300px) {
 
 } */
