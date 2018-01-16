@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Mark's Portfolio</title>
+	<!-- fullpage.js css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.css">
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<!-- font awesome -->
@@ -14,6 +16,8 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- jQuery -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- fullpage.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
 	<!-- bootstrap js -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
@@ -44,61 +48,62 @@
 			</ul>
 		</div>
 	</nav>
-	<!-- Paralax Image and landing screen -->
-	<div class="parallax">
-		<div class="welcome">
-			<h1>Full-Stack Web Developer</h1>
-			<h2>Mark Alaniz</h2>
+	<div id="fullpage">
+		<!-- Paralax Image and landing screen -->
+		<div class="section parallax">
+			<div class="welcome">
+				<h1>Full-Stack Web Developer</h1>
+				<h2>Mark Alaniz</h2>
+			</div>
 		</div>
-	</div>
-	<div class="container-fluid">
+
 		<!-- grid system for descriptions and projects -->
-		<section class="content row">
-			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-				<h1>A little about me...</h1>
-				<p>My name is Mark and I’m a computer hardware enthusiast and a full-stack web developer specializing in the MERN stack. I enjoy seeing how my creative abilities and problem solving skills come together in order to build functioning web applications
-					that I can be proud of. </p>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-				<h1>Technical Skills</h1>
-				<p>Node.js, Express, JavaScript, jQuery, React.js, React Native, GIT, Github, MongoDB, MySQL, Firebase, HTML, CSS, Bootstrap, Media Queries, APIs, JSON, REST, AJAX, the command line, computer science fundamentals, writing tests</p>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-				<h1>Current Goals</h1>
-				<ul>
-					<li>Express.js</li>
-					<li>React.js</li>
-					<li>MongoDB</li>
-					<li>Building REST APIs</li>
-				</ul>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-				<a class="images" href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-				<a href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-				<a href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-				<a href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-				<a href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-				<a href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
-			</div>
-		</section>
-		<section class="contact-me">
-			<div class="social-media">
-				<ul>
-					<li>Twitter</li>
-					<li>Github</li>
-					<li>LinkedIn</li>
-				</ul>
-			</div>
+		<div class="section container-fluid">
+			<section class="content row">
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<h1>A little about me...</h1>
+					<p>My name is Mark and I’m a computer hardware enthusiast and a full-stack web developer specializing in the MERN stack. I enjoy seeing how my creative abilities and problem solving skills come together in order to build functioning web applications
+						that I can be proud of. </p>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<h1>Technical Skills</h1>
+					<p>Node.js, Express, JavaScript, jQuery, React.js, React Native, GIT, Github, MongoDB, MySQL, Firebase, HTML, CSS, Bootstrap, Media Queries, APIs, JSON, REST, AJAX, the command line, computer science fundamentals, writing tests</p>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<h1>Current Goals</h1>
+					<ul>
+						<li>Express.js</li>
+						<li>React.js</li>
+						<li>MongoDB</li>
+						<li>Building REST APIs</li>
+					</ul>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<a class="images" href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<a href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<a href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<a href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<a href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<a href="#"><img src="assets/images/placeholder1.png" alt="placeholder"></a>
+				</div>
+			</section>
+		</div>
+		<section class="section contact-me">
+			<ul class="social-media">
+				<li><a href="#"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></li>
+			</ul>
 		</section>
 	</div>
 </body>
