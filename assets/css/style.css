@@ -10,6 +10,7 @@ body {
 .parallax {
   /* parallax background settings */
   background-image: url("../images/keyboard.png");
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,6 +91,9 @@ i {
   color: #ecf3f1;
 }
 
-/* @media only screen and (max-width: 300px) {
-
-} */
+@media only screen and (max-width: 515px) {
+  .social-media li {
+    display: block;
+    padding: 10px 0;
+  }
+}
