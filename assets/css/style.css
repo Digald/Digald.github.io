@@ -1,12 +1,15 @@
 /* html, body, and general styles */
+
 body {
   overflow: auto;
   background-color: black;
 }
+
 /* style of landing image and graphics */
+
 .parallax {
   /* parallax background settings */
-  background-image: url("http://longwallpapers.com/Desktop-Wallpaper/computer-wallpapers-wide-For-Desktop-Wallpaper.jpg");
+  background-image: url("../images/keyboard.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,6 +18,7 @@ body {
   color: white;
   width: 100%;
 }
+
 .welcome {
   padding: 20px;
   background-color: #222222;
@@ -24,29 +28,42 @@ body {
   top: 50%;
   width: 100%;
 }
+
 .border {
   color: white;
 }
+
 /* displaying portfolio positioning */
+
 .content {
-  background-image: url("../images/mern.png");
+  background: #E0EAFC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  color: white;
+  color: #284863;
 }
+
 .col-xl-3 {
   padding: 0;
 }
+
 .row img {
   max-width: 100%;
 }
+
 /* portfolio effects on hover */
+
 /* contact me section */
+
 .contact-me {
-  background-image: url("http://www.4usky.com/data/out/7/164034464-austin-wallpapers.jpg");
+  background-image: url("../images/austin.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,6 +71,7 @@ body {
   width: 100%;
   /* position: relative; */
 }
+
 .social-media {
   top: 50%;
   left: 0;
@@ -62,12 +80,14 @@ body {
   text-align: center;
   list-style: none;
 }
+
 .social-media li {
   display: inline;
   padding: 40px;
 }
+
 i {
-  color: white;
+  color: #ecf3f1;
 }
 
 /* @media only screen and (max-width: 300px) {
