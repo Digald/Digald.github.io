@@ -10,7 +10,6 @@ body {
 .parallax {
   /* parallax background settings */
   background-image: url("../images/keyboard.png");
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,12 +36,7 @@ body {
 /* displaying portfolio positioning */
 
 .content {
-  background: #E0EAFC;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #CFDEF3, #E0EAFC);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("../images/node.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,7 +52,19 @@ body {
 .row img {
   max-width: 100%;
 }
+.images {
+  max-width: 100%;
+}
+.title1 {
+  position: absolute;
+  background-color: #33a4b9;
+  width: 100%;
+  top: 50%;
+  color: white;
+  text-align: center;
+  padding: 10px;
 
+}
 /* portfolio effects on hover */
 
 /* contact me section */
