@@ -1,15 +1,24 @@
-/* html, body, and general styles */
-
+/*-----------------------------
+html, body, and general styles
+------------------------------*/
+html, body {
+  height: 100%;
+}
 body {
   overflow: auto;
   background-color: black;
 }
 
-/* style of landing image and graphics */
-
+/*-------------------------------------
+ style of landing image and graphics
+ -------------------------------------*/
+.section {
+  padding: 0;
+}
 .parallax {
   /* parallax background settings */
   background-image: url("../images/keyboard.png");
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,28 +42,29 @@ body {
   color: white;
 }
 
-/* displaying portfolio positioning */
+/*----------------------------------
+displaying portfolio positioning
+--------------------------------------*/
 
 .content {
-  background-image: url("../images/node.png");
+  background-image: url("../images/congruent_pentagon.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  height: 100%;
+  /* width: 100vw; */
   color: #284863;
 }
-
-.col-xl-3 {
-  padding: 0;
+.col-lg-4 {
+  padding-right: 0;
 }
 
+/* keeps images in decent blocks */
 .row img {
   max-width: 100%;
 }
-.images {
-  max-width: 100%;
-}
+
 .title1 {
   position: absolute;
   background-color: #33a4b9;
@@ -65,9 +75,13 @@ body {
   padding: 10px;
 
 }
-/* portfolio effects on hover */
+/*--------------------------
+portfolio effects on hover
+-----------------------------*/
 
-/* contact me section */
+/*------------------------
+ contact me section
+ -------------------------*/
 
 .contact-me {
   background-image: url("../images/austin.png");
@@ -96,7 +110,9 @@ body {
 i {
   color: #ecf3f1;
 }
-
+/*---------------------------------
+media queries
+----------------------------------- */
 @media only screen and (max-width: 515px) {
   .social-media li {
     display: block;
