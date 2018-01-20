@@ -1,7 +1,8 @@
 /*-----------------------------
 html, body, and general styles
 ------------------------------*/
-html, body {
+html,
+body {
   height: 100%;
 }
 body {
@@ -73,7 +74,6 @@ displaying portfolio positioning
   color: white;
   text-align: center;
   padding: 10px;
-
 }
 /*--------------------------
 portfolio effects on hover
