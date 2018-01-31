@@ -1,7 +1,10 @@
-body {
-  background-color: white;
+body,
+html {
+  height: 100%;
 }
-
+/*-----------------------------
+Navigation Slider
+------------------------------*/
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
@@ -27,7 +30,7 @@ body {
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover{
+.sidenav a:hover {
   color: #f1f1f1;
 }
 
@@ -42,12 +45,67 @@ body {
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   /* padding: 20px; */
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/*---------------
+Menu bars
+----------------*/
+.burgerMenu {
+  position: fixed;
+  margin-top: 1%;
+  margin-left: 1%;
+  z-index: 99;
+}
+.burgerMenu div {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  z-index: 9999;
+}
+
+/* ------------------
+landing page
+----------------------*/
+.landing {
+  background-image: url("https://cdn.pixabay.com/photo/2015/10/09/00/55/lotus-978659_960_720.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ------------------
+Portfolio
+----------------------*/
+.portfolio {
+  background-color: rgb(66, 89, 124);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ------------------
+About
+----------------------*/
+.about {
+  background-color: rgb(88, 151, 112);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
