@@ -87,16 +87,17 @@ landing page
 .landing {
   background-image: url("https://cdn.pixabay.com/photo/2015/10/09/00/55/lotus-978659_960_720.jpg");
   height: 100%;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 /* ------------------
 Portfolio
 ----------------------*/
 .portfolio {
-  background-color: rgb(66, 89, 124);
+  background-color: rgb(66, 89, 124) !important;
   height: 100%;
   background-attachment: fixed;
   background-position: center;
