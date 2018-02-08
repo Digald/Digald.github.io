@@ -6,8 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Mark's Portfolio</title>
-	<!-- fullpage.js css -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.css">
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
 	 crossorigin="anonymous">
@@ -17,8 +15,6 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- jQuery -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- fullpage.js -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
 	<!-- bootstrap js -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
 	 crossorigin="anonymous"></script>
@@ -31,6 +27,7 @@
 </head>
 
 <body>
+	<!-- navmenu section -->
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="#">Top</a>
@@ -38,18 +35,28 @@
 		<a href="#">About</a>
 		<a href="#">Contact</a>
 	</div>
+	<!-- all other page content -->
 	<div id="main">
+		<!-- burger menu -->
 		<div class="burgerMenu" onclick="openNav()">
 			<div></div>
 			<div></div>
 			<div></div>
 		</div>
+		<div class="brand">
+			<strong><p>Mark Alaniz</p></strong>
+		</div>
+		<!-- page sections and content -->
 		<div id="fullpage">
-			<div class="section landing">
+			<div class="landing">
 				<h1>Hello World</h1>
 			</div>
-			<div class="section portfolio"></div>
-			<div class="section about"></div>
+			<div class="portfolio">
+				<h1>Hello World</h1>
+			</div>
+			<div class="about">
+				<h1>Hello World</h1>
+			</div>
 		</div>
 	</div>
 </body>
