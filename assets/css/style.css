@@ -12,7 +12,7 @@ Navigation Slider
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  z-index: 999; /* Stay on top */
   top: 0;
   left: 0;
   background-color: #111; /* Black*/
@@ -48,7 +48,6 @@ Navigation Slider
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left 0.5s;
-  /* padding: 20px; */
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -64,10 +63,6 @@ Navigation Slider
 /*---------------
 Menu bars
 ----------------*/
-.logo {
-  width: 100px;
-  height: auto;
-}
 .burgerMenu {
   position: fixed;
   margin-top: 1%;
@@ -89,19 +84,32 @@ Menu bars
   right: 0;
   z-index: 9999;
 }
-
+.spacer{
+  width: 100%;
+  height: 60px;
+}
 /* ------------------
 landing page
 ----------------------*/
 .landing {
   background-image: url("https://cdn.pixabay.com/photo/2015/10/09/00/55/lotus-978659_960_720.jpg");
-  /* filter: blur(5px); */
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  overflow: auto;
+}
+.col {
+  word-wrap: break-word;
+}
+.col-1-xs img {
+  height: 200px;
+  width: 200px;
+  margin: 50% auto;
+  border-radius: 50%;
+  border: 2px solid black;
 }
 /* ------------------
 Portfolio
@@ -116,9 +124,9 @@ Portfolio
   background-size: cover;
 }
 /* ------------------
-About
+Contact
 ----------------------*/
-.about {
+.contact {
   /* background-color: rgb(88, 151, 112); */
   background-image: url("https://cdn.pixabay.com/photo/2018/02/07/12/16/modern-3136962_960_720.jpg");
   min-height: 100vh;
