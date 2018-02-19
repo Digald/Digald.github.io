@@ -2,137 +2,53 @@ body,
 html {
   height: 100%;
   margin: 0;
+  padding-top: 50px;
+  color: black;
+}
+
+/* ----------------------------------------------------
+NAVBAR CSS
+----------------------------------------------------*/
+.nav-item {
+  padding-left: 50px;
+}
+
+.navbar {
+  height: 100px;
+}
+nav img {
+  width: 100px;
+  padding-right: 10px;
+}
+.navbar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ------------------------------------------------------
+INSTRODUCTION BANNER
+-----------------------------------------------------------*/
+.image-banner {
+  background-image: url("https://static.pexels.com/photos/205316/pexels-photo-205316.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: back;
+  padding: 200px 0;
+}
+
+.text-border {
+  display: inline-block;
+  padding: 30px 40px;
+  border: 1px solid black
+}
+/* ------------------------------------------------------
+PORTFOLIO SECTION
+----------------------------------------------------------*/
+.row {
   padding: 0;
-}
-/*-----------------------------
-Navigation Slider
-------------------------------*/
-/* The side navigation menu */
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 999; /* Stay on top */
-  top: 0;
-  left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left 0.5s;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
-/*---------------
-Menu bars
-----------------*/
-.burgerMenu {
-  position: fixed;
-  margin-top: 1%;
-  margin-left: 2%;
-  z-index: 99;
-}
-.burgerMenu div {
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  z-index: 9999;
-}
-.brand {
-  color: white;
-  position: fixed;
-  margin-top: 1%;
-  margin-right: 2%;
-  right: 0;
-  z-index: 9999;
-}
-.spacer{
-  width: 100%;
-  height: 60px;
-}
-/* ------------------
-landing page
-----------------------*/
-.landing {
-  background-image: url("https://cdn.pixabay.com/photo/2015/10/09/00/55/lotus-978659_960_720.jpg");
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  overflow: auto;
-  /* display: block; */
-}
-.col {
-  word-wrap: break-word;
-}
-.col-1-xs img {
-  height: 200px;
-  width: 200px;
-  margin: 50% auto;
-  border-radius: 50%;
-  border: 2px solid black;
-}
-/* ------------------
-Portfolio
-----------------------*/
-.portfolio {
-  /* background-color: rgb(66, 89, 124) !important; */
-  background-image: url("https://cdn.pixabay.com/photo/2017/10/12/20/12/abstract-2845763_960_720.jpg");
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* ------------------
-Contact
-----------------------*/
-.contact {
-  /* background-color: rgb(88, 151, 112); */
-  background-image: url("https://cdn.pixabay.com/photo/2018/02/07/12/16/modern-3136962_960_720.jpg");
-  min-height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0;
 }
