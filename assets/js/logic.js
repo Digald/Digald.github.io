@@ -21,8 +21,4 @@ $(document).ready(function() {
       $("#toggle-drop").data("overlay", "open");
     }
   });
-
-  // $("#toggle-drop").on("click", function() {
-  //   $("#myNav").css('height', '0%');
-  // });
 });
