@@ -124,11 +124,11 @@ PORTFOLIO SECTION
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: black;
 }
 
 .container-p1:hover .overlay-p1 {
-  opacity: 1;
+  opacity: .9;
 }
 
 .text-p1 {
