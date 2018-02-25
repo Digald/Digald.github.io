@@ -4,11 +4,15 @@ html {
   margin: 0;
   padding-top: 50px;
   color: black;
+  background-color: white;
 }
 
 /* ----------------------------------------------------
 NAVBAR CSS
 ----------------------------------------------------*/
+.navbar {
+  background-color:#45AFE3;
+}
 /* Navbar collapsed */
 .overlay {
   padding: 0;
@@ -36,7 +40,7 @@ NAVBAR CSS
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
@@ -88,20 +92,22 @@ nav img {
 INSTRODUCTION BANNER
 -----------------------------------------------------------*/
 .image-banner {
-  background-image: url("https://static.pexels.com/photos/373076/pexels-photo-373076.jpeg");
+  background-image: url("../images/banner_background.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
   color: back;
-  padding: 200px 0;
+  padding: 100px 0;
 }
 
 .text-border {
   display: inline-block;
   padding: 30px 40px;
-  border: 1px solid black;
+  font-size: 30px;
+  color: black;
+  border: 2px solid black;
 }
 /* ------------------------------------------------------
 PORTFOLIO SECTION
@@ -124,11 +130,11 @@ PORTFOLIO SECTION
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: black;
 }
 
 .container-p1:hover .overlay-p1 {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .text-p1 {
@@ -144,4 +150,11 @@ PORTFOLIO SECTION
 .p1-img {
   width: 100%;
   padding: 0;
+}
+
+/* ------------------------------------------------------
+Footer
+-----------------------------------------------------------*/
+footer {
+  background-color: #E2EBF1;
 }
