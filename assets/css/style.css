@@ -11,7 +11,7 @@ html {
 NAVBAR CSS
 ----------------------------------------------------*/
 .navbar {
-  background-color:#45AFE3;
+  background-color:#3C9CC4;
 }
 .navbar-brand img{
   width: 70px;
@@ -101,7 +101,7 @@ INSTRODUCTION BANNER
   background-position: center;
   background-size: cover;
   text-align: center;
-  color: back;
+  /* color: back; */
   padding: 100px 0;
 }
 
@@ -115,9 +115,17 @@ INSTRODUCTION BANNER
 /* ------------------------------------------------------
 PORTFOLIO SECTION
 ----------------------------------------------------------*/
-.row {
+.projects .row:first-child {
   padding: 0;
-  margin-top: 20px;
+  margin-top: 60px;
+}
+.projects .row:last-child {
+  padding: 0;
+  margin-bottom: 60px;
+}
+.projects .row {
+  padding:0;
+  margin-top: 30px;
 }
 .col {
   padding: 0;
@@ -137,7 +145,7 @@ PORTFOLIO SECTION
 }
 
 .container-p1:hover .overlay-p1 {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .text-p1 {
@@ -159,5 +167,12 @@ PORTFOLIO SECTION
 Footer
 -----------------------------------------------------------*/
 footer {
-  background-color: #E2EBF1;
+  color: white;
+  background-color: #3C9CC4;
+}
+footer .icons {
+  text-align: right;
+}
+footer i {
+  margin-right: 30px;
 }
