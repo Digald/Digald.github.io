@@ -13,6 +13,9 @@ NAVBAR CSS
 .navbar {
   background-color:#45AFE3;
 }
+.navbar-brand img{
+  width: 70px;
+}
 /* Navbar collapsed */
 .overlay {
   padding: 0;
