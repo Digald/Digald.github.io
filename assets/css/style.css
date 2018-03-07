@@ -173,6 +173,13 @@ footer {
 footer .icons {
   text-align: right;
 }
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #E5EFF4;
+  text-decoration: none;
+}
 footer i {
   margin-right: 30px;
 }
